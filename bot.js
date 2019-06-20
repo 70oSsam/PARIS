@@ -379,7 +379,7 @@ client.on('message', msg => {
 };
 });
 client.on('message', message => {
-    if (message.content.startsWith("G.trans")) {
+    if (message.content.startsWith("!trans")) {
       
     let toTrans = message.content.split(' ').slice(1);
     let language;
